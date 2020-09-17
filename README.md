@@ -4,7 +4,7 @@
 * **Author:** Bugo [dragomano.ru](https://dragomano.ru/mods/happy-birthday)
 * **License:** [CC BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/3.0/)
 * **Compatible with:** SMF 2.0.*
-* **Languages:** English, German, Danish, Russian, Turkish, Ukrainian
+* **Languages:** English, German, Danish, Russian, Turkish, Ukrainian, French
 
 ## Description 
 Display a cake on the right of the messages of users who have a birthday today.
