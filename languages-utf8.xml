@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<!DOCTYPE modification SYSTEM "http://www.simplemachines.org/xml/modification">
+<modification xmlns="http://www.simplemachines.org/xml/modification" xmlns:smf="http://www.simplemachines.org/">
+	<id>Bugo:Happy_Birthday</id>
+	<version>0.2</version>
+
+	<file name="$languagedir/Modifications.english-utf8.php" error="skip">
+		<operation>
+			<search position="end" />
+			<add><![CDATA[
+// Happy Birthday
+$txt['happy_birthday_text'] = 'Today is my Birthday ;)';
+]]></add>
+		</operation>
+	</file>
+	
+	<file name="$languagedir/Modifications.ukrainian-utf8.php" error="skip">
+		<operation>
+			<search position="end" />
+			<add><![CDATA[
+// Happy Birthday
+$txt['happy_birthday_text'] = 'В мене сьогодні день народження!';
+]]></add>
+		</operation>
+	</file>
+	
+	<file name="$languagedir/Modifications.russian-utf8.php" error="skip">
+		<operation>
+			<search position="end" />
+			<add><![CDATA[
+// Happy Birthday
+$txt['happy_birthday_text'] = 'У меня сегодня день рождения ;)';
+]]></add>
+		</operation>
+	</file>
+	
+	<file name="$languagedir/Modifications.turkish.php" error="skip">
+		<operation>
+			<search position="end" />
+			<add><![CDATA[
+// Happy Birthday MOD Translation by SirtLanVadisi.NeT
+$txt['happy_birthday_text'] = 'Bu gün benim doğum günüm ;)';
+]]></add>
+		</operation>
+	</file>
+	
+	<file name="$languagedir/Modifications.turkish-utf8.php" error="skip">
+		<operation>
+			<search position="end" />
+			<add><![CDATA[
+// Happy Birthday MOD Translation by SirtLanVadisi.NeT
+$txt['happy_birthday_text'] = 'Bu gÃ¼n benim doÄŸum gÃ¼nÃ¼m ;)';
+]]></add>
+		</operation>
+	</file>
+	
+	<file name="$languagedir/Modifications.german.php" error="skip">
+		<operation>
+			<search position="end" />
+			<add><![CDATA[
+// Happy Birthday MOD Translation by SirtLanVadisi.NeT
+$txt['happy_birthday_text'] = 'Heute ist mein Geburtstag ;)';
+]]></add>
+		</operation>
+	</file>
+	
+	<file name="$languagedir/Modifications.german-utf8.php" error="skip">
+		<operation>
+			<search position="end" />
+			<add><![CDATA[
+// Happy Birthday MOD Translation by SirtLanVadisi.NeT
+$txt['happy_birthday_text'] = 'Heute ist mein Geburtstag ;)';
+]]></add>
+		</operation>
+	</file>
+	
+	<file name="$languagedir/Modifications.danish.php" error="skip">
+		<operation>
+			<search position="end" />
+			<add><![CDATA[
+// Happy Birthday
+$txt['happy_birthday_text'] = 'Det er min fødselsdag idag ;)';
+]]></add>
+		</operation>
+	</file>
+	
+	<file name="$languagedir/Modifications.danish-utf8.php" error="skip">
+		<operation>
+			<search position="end" />
+			<add><![CDATA[
+// Happy Birthday
+$txt['happy_birthday_text'] = 'Det er min fÃ¸dselsdag idag ;)';
+]]></add>
+		</operation>
+	</file>
+
+</modification>

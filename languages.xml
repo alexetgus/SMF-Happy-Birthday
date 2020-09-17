@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE modification SYSTEM "http://www.simplemachines.org/xml/modification">
+<modification xmlns="http://www.simplemachines.org/xml/modification" xmlns:smf="http://www.simplemachines.org/">
+	<id>Bugo:Happy_Birthday</id>
+	<version>0.1</version>
+
+	<file name="$languagedir/Modifications.english.php">
+		<operation>
+			<search position="end" />
+			<add><![CDATA[
+// Happy Birthday
+$txt['happy_birthday_text'] = 'Today is my Birthday ;)';
+]]></add>
+		</operation>
+	</file>
+	
+	<file name="$languagedir/Modifications.ukrainian.php" error="skip">
+		<operation>
+			<search position="end" />
+			<add><![CDATA[
+// Happy Birthday
+$txt['happy_birthday_text'] = 'В мене сьогодні день народження!';
+]]></add>
+		</operation>
+	</file>
+	
+	<file name="$languagedir/Modifications.russian.php" error="skip">
+		<operation>
+			<search position="end" />
+			<add><![CDATA[
+// Happy Birthday
+$txt['happy_birthday_text'] = 'У меня сегодня день рождения ;)';
+]]></add>
+		</operation>
+	</file>
+
+</modification>

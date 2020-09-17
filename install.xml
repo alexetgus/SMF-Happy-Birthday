@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE modification SYSTEM "http://www.simplemachines.org/xml/modification">
+<modification xmlns="http://www.simplemachines.org/xml/modification" xmlns:smf="http://www.simplemachines.org/">
+	<id>Bugo:Happy_Birthday</id>
+	<version>0.3</version>
+	
+	<!-- Демонстрация праздничного торта в день рождения пользователя -->
+	<file name="$sourcedir/Display.php">
+		<operation>
+			<search position="after"><![CDATA[
+	// Compose the memory eat- I mean message array.]]></search>
+			<add><![CDATA[
+	// Birthday?
+	if (!$context['user']['is_guest'] && isset($memberContext[$message['id_member']]['birth_date']) && (substr($memberContext[$message['id_member']]['birth_date'], 5, 5) == date('m-d')) && !strpos($message['body'], 'code'))
+		$message['body'] .= '<div class="floatright"><a href="' . $scripturl. '?action=profile;u=' . $memberContext[$message['id_member']]['id'] . '"><img src="' . $settings['default_images_url'] . '/sweet/' . rand(1,6) . '.png" width="64" height="64" alt="" title="' . $txt['happy_birthday_text'] . '" /></a></div>';
+]]></add>
+		</operation>
+	</file>
+	
+</modification>
